@@ -1,0 +1,7 @@
+0: Giriş/Çıkış logları
+1: Kayıt logları
+2: Post logları
+3: Yorum logları
+4: Beğeni logları
+5: Profil işlemleri logları
+6: Takip/Takibi bırak logları

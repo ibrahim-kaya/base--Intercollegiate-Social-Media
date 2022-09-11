@@ -1,0 +1,31 @@
+.info_container
+{
+    align-items: center;
+    background-color: #B5E0E2;
+    border-bottom: 1px solid #99D4D6;
+    margin-top: -50px;
+}
+
+.uniInfo {
+    font-size: 10pt;
+    color: #3E5765;
+}
+
+.upper {
+    font-size: 11pt;
+}
+
+.var {
+    color: #172126;
+}
+
+.otherinfo {
+    border-top: 1px solid #99D4D6;
+    margin-top: 50px;
+    padding: 0 10px;
+}
+
+.aspect-ratio {
+    width: 100%;
+    height: auto;
+}

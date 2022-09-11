@@ -1,0 +1,305 @@
+#profil .lcont{
+	display: block;
+	order: 1;
+}
+#profil .rcont {
+	order: 3;
+}
+
+.profile_l_cont{
+	display: flex;
+	align-items: center;
+	float: none;
+	margin: 20px;
+	border: 1px solid #666;
+	border-radius: 20px;
+	padding: 10px 10px 0 10px;
+	background-color: #ECEFFD;
+	box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.1);
+}
+
+.profileInfo {
+	font-size: 10pt;
+	color: #3E5765;
+}
+
+.upper {
+	font-size: 10pt;
+}
+
+.username {
+	margin: 50px 0 0 10px;
+}
+
+.var {
+	color: #172126;
+}
+
+.profileInfo h2 {
+	margin-top: 0;
+	margin-left: 10px;
+	text-align: inherit;
+	color: #14213d;
+}
+
+.profileInfo a {
+	color: #5773EF;
+	text-decoration: none;
+}
+
+.profile_pp {
+	display: flex; 
+	align-items: center;
+}
+
+.profile_pp img{
+	box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.1);
+}
+
+.info_container
+{
+	background-color: #B5E0E2; 
+	border-bottom: 1px solid #99D4D6; 
+	padding-bottom: 20px;
+	margin-top: -50px;
+}
+
+.cover_container {
+	position: relative;
+}
+
+.aspect-ratio {
+	width: 100%;
+	height: auto;
+}
+
+.otherinfo {
+	border-top: 1px solid #99D4D6;
+	margin-top: 30px;
+	padding-top: 20px;
+}
+
+.p_duzenle {
+	background-color: none; 
+	height: 30px; 
+	width: 120px; 
+	margin-right: 5px; 
+	text-align: center; 
+	line-height: 30px; 
+	border-radius: 20px; 
+	border: 2px solid #57BEFF; 
+	cursor: pointer;
+}
+
+.p_duzenle:hover {
+	background-color: #A8D3F0;
+	color: #004FBF;
+}
+
+.takip_et {
+	background-color: none; 
+	height: 30px; 
+	width: 120px; 
+	margin-right: 5px; 
+	text-align: center; 
+	line-height: 30px; 
+	border-radius: 20px; 
+	border: 2px solid #44BB1C; 
+	cursor: pointer;
+}
+
+.takip_et:hover {
+	background-color: #B5E2C8;
+	color: #216C21;
+}
+
+.takibi_birak {
+	background: rgb(180,227,145); /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgba(180,227,145,1) 0%, rgba(97,196,25,1) 50%, rgba(180,227,145,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  rgba(180,227,145,1) 0%,rgba(97,196,25,1) 50%,rgba(180,227,145,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  rgba(180,227,145,1) 0%,rgba(97,196,25,1) 50%,rgba(180,227,145,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	color: #fff;
+	height: 30px; 
+	width: 120px; 
+	margin-right: 5px; 
+	text-align: center; 
+	line-height: 30px; 
+	border-radius: 20px; 
+	text-shadow: 1px 1px 4px rgba(75, 75, 75, 1);
+	border: 2px solid #44BB1C; 
+	cursor: pointer;
+}
+
+.takibi_birak:hover {
+	opacity: 0.6;
+}
+
+.profil-ayar-sec {
+	display: flex;
+	align-items: center;
+	height: 30px;
+	background-color: #D6EEEF;
+	padding-left: 10px;
+	border-width: 0 1px 1px 1px;
+	border-style: solid;
+	border-color: #99D4D6;
+	transition: all .4s;
+}
+
+.profil-ayar-sec:hover {
+	background-color: #99D5D7;
+}
+
+.profil-ayar-sec svg {
+	vertical-align: middle;
+}
+
+.profil-ayar-cont {
+	margin-top: 20px;
+}
+
+.set-field-cont {
+	display: flex; 
+	flex-wrap: wrap;
+	align-items: center; 
+	padding: 20px 0 20px 10px; 
+	border-width: 1px 0 1px 0; 
+	border-style: solid; 
+	border-color: #99D4D6;
+	margin-bottom: 30px;
+}
+
+.set-field-header {
+	margin: 0 0 0 5px; 
+	font-family: 'Rajdhani', sans-serif; 
+	color: #666;
+}
+
+.kaldir-btn {
+	background-color: #F18F97;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 0 5px;
+    margin: 5px 0 0 5px;
+	cursor: pointer;
+	transition: all .2s;
+}
+
+.ara-btn {
+	transition: all .2s;
+	cursor: pointer;
+}
+
+.kaldir-btn:hover {
+	opacity: 0.7;
+}
+
+.ara-btn:hover {
+	opacity: 0.7;
+}
+
+.pass-input {
+	display: block;
+	margin: 5px 0;
+	border-width: 0 0 1px 0;
+	border-color: #888;
+	font-size: 15px;
+	width: 250px;
+	font-family: 'Bellota Text';
+	background-color: transparent;
+}
+
+@media only screen and (min-width: 770px) 
+{
+	
+	.profile_l_cont{
+		display: block;
+		float: right;
+	}
+	
+	.profileInfo {
+	font-size: 11pt;
+	}
+	
+	.profileInfo p {
+		font-size: 15px;
+		margin: 0 10px 20px 10px;
+	}
+	
+	.profileInfo h2 {
+		margin-top: 15px;
+		padding-top: 20px;
+	}
+	.profile_pp {
+		display: block; 
+		text-align: center;
+	}
+	
+	.username {
+		margin: 35px 0 0 10px;
+	}
+	
+	.info_container
+	{
+		padding: 20px;
+		margin-top: -70px;
+	}
+
+	.profil-ayar-cont {
+		width: 300px;
+		float: right;
+		margin-right: 10px;
+	}
+}
+
+.tabs {
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+
+.tabs .tab-baslik {
+	height: 60px;
+	display: flex;
+	align-items: center;
+}
+
+.tabs .tab-baslik > div {
+	width: calc(100% / 4);
+	text-align: center;
+	color: #888;
+	font-weight: 600;
+	cursor: pointer;
+	font-size: 14px;
+	text-transform: uppercase;
+	outline: none;
+	flex-grow: 1;
+	transition: all .4s;
+}
+
+.tabs .tab-baslik > div:hover {
+	opacity: 50%;
+}
+
+.tabs .tab-baslik > div > i {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.tabs .tab-baslik > div.aktif {
+	color:#00acee;
+}
+.tabs .tab-indicator {
+	position:relative;
+	width:calc(100% / 2);
+	height:5px;
+	background:#00acee;
+	left:0px;
+	border-radius:5px;
+	transition:all 500ms ease-in-out;
+}
+
+.posts {
+	transition: all .4s;
+	overflow: hidden;
+}

@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: 
+
+Sitemap: http://base.xpdevil.com/sitemap.xml

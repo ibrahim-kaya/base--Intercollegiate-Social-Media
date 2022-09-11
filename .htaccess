@@ -1,0 +1,40 @@
+Options -Indexes +FollowSymLinks -MultiViews
+
+ReWriteEngine On
+RewriteBase /
+
+RewriteCond %{THE_REQUEST} ^GET.*index\.php [NC]
+RewriteRule (.*?)index\.php/*(.*) /$1$2 [R=301,NE,L]
+
+ErrorDocument 404 /pages/error.php
+ErrorDocument 403 /pages/error.php
+ErrorDocument 500 /pages/error.php
+
+RewriteRule ^anasayfa /pages/anasayfa.php [L]
+RewriteRule ^turnike/([^/.]+)?$ /func/login.php?page=$1 [L]
+RewriteRule ^turnike /func/login.php [L]
+RewriteRule ^gonderi/([^/.]+)?$ /pages/yorumlar.php?gonderi=$1 [L]
+RewriteRule ^uni/([^/.]+)?$ /pages/olaylar.php?universite=$1 [L]
+RewriteRule ^p/([^/.]+)?$ pages/profil.php?user=$1 [L,QSA]
+RewriteRule ^foto/([^/.]+)?$ uploads/$1 [L]
+RewriteRule ^baglanamadik /pages/baglanti_yok.php [L]
+RewriteRule ^ara /pages/arama.php [L]
+RewriteRule ^ayarlar /pages/profil_duzenle.php [L]
+RewriteRule ^hosgeldin /pages/hosgeldin.php [L]
+RewriteRule ^sifremi-unuttum /pages/sifre-unuttum.php [L]
+RewriteRule ^sifre-sifirla /pages/yeni-sifre-olustur.php [L]
+
+RewriteRule ^loadposts /func/fetch.php [L]
+RewriteRule ^loadcmts /func/fetch_comments.php [L]
+RewriteRule ^loadlikes /func/like_cek.php [L]
+RewriteRule ^postopt /func/post_secenekler.php [L]
+RewriteRule ^postislem /func/islem.php [L]
+RewriteRule ^send /func/send.php [L]
+RewriteRule ^unilist /func/list_uni.php [L]
+RewriteRule ^notify /func/notification_func.php [L]
+RewriteRule ^bilgisil /func/remove_info.php [L]
+RewriteRule ^action /func/action.php [L]
+RewriteRule ^hg /func/send_mail.php?func=0 [L]
+
+RewriteRule ^sitemap.xml$ /auslaender/sitemap.php [NC,L]
+RewriteRule ^sitemap /auslaender/sitemap.php [NC,L]
